@@ -1,0 +1,37 @@
+.icon_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon_item {
+    padding: .5em;
+    font-size: 2em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#mail{
+    color:  #c71610;
+}
+
+#linkedin{
+    color:  #0e76a8;
+}
+
+
+.icon_container > button {
+    padding: 1em;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    color: red;
+    border-radius: 6px;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.icon_container > button:hover {
+    background-color: orangered;
+    color: white;
+}
