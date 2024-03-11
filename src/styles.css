@@ -26,4 +26,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     .icon_container > a{
         display: none;
     }
+    .about_container {
+        width: 80%;
+        margin: 0 auto;
+    }
 }

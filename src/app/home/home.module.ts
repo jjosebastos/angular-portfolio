@@ -9,6 +9,8 @@ import { HomeComponent } from './home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './banner/banner.component';
+import { AboutComponent } from './about/about.component';
+import { CardComponent } from './about/card/card.component';
 
 
 
@@ -18,6 +20,8 @@ import { BannerComponent } from './banner/banner.component';
     IconsMenuComponent,
     MenuBarComponent,
     BannerComponent,
+    AboutComponent,
+    CardComponent,
     
   ],
   imports: [

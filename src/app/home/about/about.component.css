@@ -1,0 +1,15 @@
+.about_title {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.about_container {
+    display: grid;
+    align-items: center;        
+    justify-items: center;
+    grid-row-gap: 15px;
+    grid-template-columns: repeat(auto-fill, 349px);
+
+}
