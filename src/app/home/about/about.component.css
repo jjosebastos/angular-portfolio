@@ -6,10 +6,24 @@
     margin-top: 20px;
 }
 .about_container {
+    width: 75%;
+    margin: 0 auto;
     display: grid;
+    gap: 10px;
     align-items: center;        
     justify-items: center;
-    grid-row-gap: 15px;
-    grid-template-columns: repeat(auto-fill, 349px);
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 1552px){
+    .about_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .about_container{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+

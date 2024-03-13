@@ -1,0 +1,8 @@
+.container_presentation {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.pres_header {
+    font-size: 3em;
+}

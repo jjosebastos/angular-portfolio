@@ -11,7 +11,6 @@ section {
 }
 
 
-
 .name_container > span {
     font-size: 3em;
     font-family: "Kode Mono", monospace;
@@ -22,7 +21,6 @@ section {
 
 .presentation_container  {
     display: flex;
-    padding: 1em 0;
     font-family: "Exo 2", sans-serif;
     font-weight: 300 ;
     color: rgb(184, 182, 180);

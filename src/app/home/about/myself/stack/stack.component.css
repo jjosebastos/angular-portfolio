@@ -1,0 +1,12 @@
+.stack {
+    align-items: center;
+    width: 20%;
+}
+
+.list_experience {
+    list-style: none;
+}
+.list_experience li {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
