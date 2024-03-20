@@ -1,0 +1,45 @@
+.container_card_exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    border: .1px solid rgb(243, 243, 243);
+    align-items: center;
+    width: 350px;
+    margin-bottom: 5px;
+} 
+.exp_icon {
+    display: flex;
+    background-color: #fd3232;
+    padding: 1em;
+    justify-content: flex-start;
+    align-items: start;
+
+    border-radius: 36px;
+}
+
+.exp_desc {
+    padding: .325em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_desc > h3 {
+    font-weight: 400;
+    padding: 0;
+}
+
+.exp_role {
+    font-weight: 450;
+}
+
+.exp_role > span {
+    font-weight: bold;
+}
+
+.exp_duration {
+    font-weight: 150;
+    font-size: 13px;
+}

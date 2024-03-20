@@ -9,12 +9,8 @@ import { HomeComponent } from './home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './banner/banner.component';
-import { AboutComponent } from './about/about.component';
-import { CardComponent } from './about/card/card.component';
-import { MyselfComponent } from './about/myself/myself.component';
-import { PresentationComponent } from './about/myself/presentation/presentation.component';
-import { ExperiencesComponent } from './about/myself/experiences/experiences.component';
-import { StackComponent } from './about/myself/stack/stack.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutModule } from './about/about.module';
 
 
 
@@ -24,17 +20,13 @@ import { StackComponent } from './about/myself/stack/stack.component';
     IconsMenuComponent,
     MenuBarComponent,
     BannerComponent,
-    AboutComponent,
-    CardComponent,
-    MyselfComponent,
-    PresentationComponent,
-    ExperiencesComponent,
-    StackComponent,
+    FooterComponent,
     
   ],
   imports: [
     FontAwesomeModule,
     CommonModule,
+    AboutModule
   ], 
   exports:[
     HomeComponent,
