@@ -1,0 +1,69 @@
+
+.skills {
+    width: 100%;
+    background-color: gray;
+}
+.container_myskills {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.skills_title {
+    
+    padding: 1em 0;
+    font-size: 2.5em;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.tag_sign {
+    color: rgb(192, 14, 192);
+    font-size: 1.75em;
+    font-weight: 350;
+}
+
+.container_technologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    justify-content: center;
+    width: 80%;
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Insira aqui as regras CSS para essa faixa de largura */
+}
+
+@media screen and (max-width: 1200px) {
+    .container_technologies {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .container_technologies {
+        grid-template-columns: 1fr;
+    }
+   
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+   
+}
+
+
+@media only screen and (max-width: 575px) {
+    .skills_title {
+        font-size: 5vw;
+    }
+    .container_technologies {
+        grid-template-columns: 1fr;
+    }
+}

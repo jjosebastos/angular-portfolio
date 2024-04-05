@@ -1,0 +1,27 @@
+
+.container_tech_card {
+    display: flex;
+    width: 300px;
+    border-radius: 8px;
+
+}
+.tech_card {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container_tech_card > img {
+    width: 48px;
+}
+
+.tech_title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.tech_description {
+    font-size: 16px;
+}
