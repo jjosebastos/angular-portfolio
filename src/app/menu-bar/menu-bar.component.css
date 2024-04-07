@@ -70,3 +70,46 @@ nav {
     background-color: orangered;
     color: white;
 }
+
+.hamburguer_bars {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bars_img {
+    margin: 0 auto;
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
+
+@media screen and (max-width: 768px ) {
+    .list_menu > li {
+        display: none;
+    }
+    .download_cv {
+        display: none;
+    }
+
+    .hamburguer_bars {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    nav {
+        justify-content: space-between;
+    }
+
+    .icons{
+        display: none;
+    }
+
+  
+}

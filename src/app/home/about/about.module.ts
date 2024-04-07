@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-;
-import { HomeModule } from '../home.module';
+
 import { MyselfComponent } from './myself/myself.component';
 import { PresentationComponent } from './myself/presentation/presentation.component';
 import { AboutComponent } from './about.component';
@@ -16,7 +15,7 @@ import { TechCardComponent } from './skills/tech-card/tech-card.component';
     PresentationComponent,
     AboutComponent,
     SkillsComponent,
-    TechCardComponent
+    TechCardComponent,
   ],
   imports: [
     CommonModule

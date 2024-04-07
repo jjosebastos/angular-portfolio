@@ -25,6 +25,9 @@
     height: 350px;
 }
 
+.bars_img {
+    background-size: 35px 35px;
+}
 
 @media screen and (width: 991px ) {
     .container_cv {
