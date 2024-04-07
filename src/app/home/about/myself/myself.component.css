@@ -26,6 +26,14 @@
 }
 
 
+@media screen and (width: 991px ) {
+    .container_cv {
+        width: 100%;
+    }
+    .container_presentation {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .container_myself {

@@ -1,15 +1,25 @@
 <section class="skills">
     <div class="container_myskills">
         <h2 class="skills_title">
-            <span class="tag_sign">&lt;</span>
-                Minha Stack de conhecimento
-            <span class="tag_sign">/&gt;</span>
+            <span class="tag_sign">&lt;</span> Minha Stack de conhecimento <span class="tag_sign">/&gt;</span>
         </h2>
         <div class="container_technologies">
-            <app-tech-card></app-tech-card>
-            <app-tech-card></app-tech-card>
-            <app-tech-card></app-tech-card>
-            <app-tech-card></app-tech-card>
+            <app-tech-card iconExperience="assets/svg-icons/html-icon.svg" 
+                        skillType="FrontEnd" 
+                        descriptionOfSkill="HTML / CSS / JavaScript / Angular / Node">
+            </app-tech-card>
+            <app-tech-card iconExperience="assets/svg-icons/database.svg"
+                        skillType="Banco de Dados"
+                        descriptionOfSkill="Oracle / MongoDB / Sistemas OLAP e OLTP">
+            </app-tech-card>
+            <app-tech-card iconExperience="assets/svg-icons/vassoura.svg"
+            skillType="Clean Code"
+            descriptionOfSkill="Boas práticas de Clean Code e revisões da qualidade do código."    
+            ></app-tech-card>
+            <app-tech-card iconExperience="assets/svg-icons/mobile.svg"
+            skillType="mobile"
+            descriptionOfSkill="Tecnologias de nicho mobile para criar aplicações portabeis."    
+            ></app-tech-card>
         </div>
         
     </div>

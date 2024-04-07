@@ -3,7 +3,8 @@
     display: flex;
     width: 300px;
     border-radius: 8px;
-
+    margin-bottom: 15px;
+    color: #fff;
 }
 .tech_card {
     padding-left: 20px;
@@ -11,17 +12,32 @@
     flex-direction: column; 
 }
 
-.container_tech_card > img {
-    width: 48px;
+.container_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(194, 10, 10);
+    min-width: 80px;
+    max-height: 75px;
 }
+
+
+.container_image > img {
+    width: 45px;
+    height: 45px;
+    background-size: auto auto;
+}
+
 
 .tech_title {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 5px;
+    font-size: 1.4em;
+    margin-bottom: 2px;
 }
 
 .tech_description {
-    font-size: 16px;
+    font-size: 1em;
+    font-weight: 200;
 }
