@@ -7,15 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './banner/banner.component';
 import { AboutModule } from './about/about.module';
-import { AsideComponent } from '../aside/aside.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     BannerComponent,
-    AsideComponent,
-    
+
   ],
   imports: [
     FontAwesomeModule,

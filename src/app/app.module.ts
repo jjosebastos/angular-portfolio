@@ -9,13 +9,15 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { IconsMenuComponent } from './menu-bar/icons-menu/icons-menu.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent, 
     IconsMenuComponent,
-    FooterComponent
+    FooterComponent,
+    AsideComponent
 
   ],
   imports: [

@@ -1,0 +1,58 @@
+.container_aside {
+    top: 0;
+    right: 0;
+    bottom: 1;
+    background-color: red;
+    position: fixed;
+    width: 20rem;
+    z-index: 1;
+    height: 100vw;
+    transition: all .5s ease;
+    box-shadow: 0.063rem 0 1.25rem 0 #1f1f1f;
+}
+
+.close_button {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 2em;
+    color: #fff;
+    transition: 1s;
+}
+
+.close_button:hover {
+    color: black;
+}
+
+.aside {
+    display: flex;
+    justify-content: center;
+}
+
+.list_menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    list-style: none;
+    padding: 1em;
+    border-bottom: 1px solid rgb(187, 187, 187, 0.7);
+}
+
+.list_menu li {
+    padding: 1em;
+    transition: .5s;
+}
+
+.list_menu > li > a {
+    font-size: 1.325em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.list_menu > li:hover {
+    background-color: rgb(185, 8, 8);
+    color: #fff;
+}
+
