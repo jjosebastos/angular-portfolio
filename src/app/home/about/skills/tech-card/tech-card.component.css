@@ -18,15 +18,15 @@
     justify-content: center;
     border-radius: 10px;
     background-color: rgb(194, 10, 10);
-    min-width: 80px;
-    max-height: 75px;
+    min-width: 100px;
+    height: 110px;
+
 }
 
 
 .container_image > img {
     width: 45px;
     height: 45px;
-    background-size: auto auto;
 }
 
 
@@ -40,4 +40,25 @@
 .tech_description {
     font-size: 1em;
     font-weight: 200;
+}
+
+
+@media  screen and (max-width: 611px) {
+    
+    .container_tech_card {
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+        background-color: gray;
+        padding: 1em;
+        margin: 10 auto;
+    }
+    .tech_description {
+        font-size: 1.325em;
+        font-weight: 350;
+    }
+    .tech_title {
+        font-size: 1.8em;
+
+    }
 }

@@ -6,20 +6,22 @@
 .container_myskills {
     display: flex;
     flex-direction: column;
-    width: 85%;
-    margin: 0 auto;
+    justify-content: space-around;
+    justify-self: flex-start;
+    flex-wrap: wrap;
 }
 
 .skills_title {
-    
     padding: 1em 0;
     font-size: 2.5em;
+    margin: 0 auto;
     text-align: center;
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
     font-weight: 550;
     color: #fff;
+    font-family: 'Poppins', sans-serif; /* ou outra fonte moderna */
+    font-size: 2.5rem; /* Ajuste conforme o design */
+
+  position: relative;
 }
 
 .tag_sign {
@@ -28,27 +30,19 @@
 
 .container_technologies {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 1em;
     gap: 10px;
     width: 100%;
 }
 
-
+    
 
 
 @media screen and (max-width: 733px) {
-    .container_technologies {
-        justify-content: start;
-    }
+   .tech_name {
+        width: 400px;
+   }
 }
 
-
-
-
-@media only screen and (max-width: 575px) {
-    .skills_title {
-        font-size: 5vw;
-    }
-
-}
